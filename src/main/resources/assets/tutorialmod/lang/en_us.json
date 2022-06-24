@@ -1,5 +1,6 @@
 {
   "item.tutorialmod.fluorite" : "Fluorite",
-  "block.tutorialmod.fluorite_block" : "Fluorite Block"
+  "block.tutorialmod.fluorite_block" : "Fluorite Block",
+  "block.tutorialmod.fluorite_ore" : "Fluorite Ore "
 
 }

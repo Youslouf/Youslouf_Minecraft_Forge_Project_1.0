@@ -23,9 +23,13 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> FLUORITE_BLOCK = registerBlock("fluorite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(5f).requiresCorrectToolForDrops().lightLevel((state) -> 15)
+                    .strength(9f).requiresCorrectToolForDrops().lightLevel((state) -> 15)
             )
             ,CreativeModeTab.TAB_BREWING);
+    public static final RegistryObject<Block> FLUORITE_ORE = registerBlock("fluorite_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1f).requiresCorrectToolForDrops().lightLevel((state) -> 5)
+            ),CreativeModeTab.TAB_BREWING);
 
 
 
