@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
 
     public static final RegistryObject<Item> FLUORITE = ITEMS.register("fluorite",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_BREWING)));
+            () -> new Item(new Item.Properties().tab(ModCreativeTab.TAB_FLUORITE)));
 
 
 

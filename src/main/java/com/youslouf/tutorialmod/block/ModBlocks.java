@@ -1,6 +1,7 @@
 package com.youslouf.tutorialmod.block;
 
 import com.youslouf.tutorialmod.TutorialMod;
+import com.youslouf.tutorialmod.item.ModCreativeTab;
 import com.youslouf.tutorialmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -25,11 +26,11 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(9f).requiresCorrectToolForDrops().lightLevel((state) -> 15)
             )
-            ,CreativeModeTab.TAB_BREWING);
+            ,ModCreativeTab.TAB_FLUORITE);
     public static final RegistryObject<Block> FLUORITE_ORE = registerBlock("fluorite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1f).requiresCorrectToolForDrops().lightLevel((state) -> 5)
-            ),CreativeModeTab.TAB_BREWING);
+            ), ModCreativeTab.TAB_FLUORITE);
 
 
 
