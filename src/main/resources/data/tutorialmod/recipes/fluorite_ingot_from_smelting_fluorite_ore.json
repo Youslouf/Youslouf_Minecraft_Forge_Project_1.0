@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "tutorialmod:fluorite_ore"
+  },
+  "result": "tutorialmod:fluorite",
+  "experience": 20,
+  "cookingtime": 20
+}
