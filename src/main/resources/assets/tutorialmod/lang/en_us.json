@@ -2,6 +2,9 @@
   "item.tutorialmod.fluorite" : "Fluorite",
   "block.tutorialmod.fluorite_block" : "Fluorite Block",
   "block.tutorialmod.fluorite_ore" : "Fluorite Ore ",
-  "itemGroup.fluorite": "Fluorite Tab"
+  "itemGroup.fluorite": "Fluorite Tab",
+  "item.tutorialmod.fluorite_dropper.no_valuables": "No Valuables",
+  "item.tutorialmod.fluorite_floss" : "Fluorite Floss",
+  "item.tutorialmod.fluorite_dropper": "Soil Check Fluid"
 
 }
