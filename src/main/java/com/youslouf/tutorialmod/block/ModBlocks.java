@@ -23,14 +23,14 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID);
 
     public static final RegistryObject<Block> FLUORITE_BLOCK = registerBlock("fluorite_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops().lightLevel((state) -> 15)
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(4f).lightLevel((state) -> 15)
             )
             ,ModCreativeTab.TAB_FLUORITE);
     public static final RegistryObject<Block> FLUORITE_ORE = registerBlock("fluorite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1f).requiresCorrectToolForDrops().lightLevel((state) -> 5)
-            ), ModCreativeTab.TAB_FLUORITE);
+                    .strength(3f).requiresCorrectToolForDrops().lightLevel((state) -> 5)
+            ),ModCreativeTab.TAB_FLUORITE);
 
 
 

@@ -5,6 +5,22 @@
   "itemGroup.fluorite": "Fluorite Tab",
   "item.tutorialmod.fluorite_dropper.no_valuables": "No Valuables",
   "item.tutorialmod.fluorite_floss" : "Fluorite Floss",
-  "item.tutorialmod.fluorite_dropper": "Soil Check Fluid"
+  "item.tutorialmod.fluorite_sugar" : "Fluorite Sugar",
+  "item.tutorialmod.fluorite_dropper": "Soil Check Fluid",
+
+
+  "item.tutorialmod.fluorite_axe": "Fluorite Axe",
+  "item.tutorialmod.fluorite_pickaxe": "Fluorite Pickaxe",
+  "item.tutorialmod.fluorite_sword": "Fluorite Sword",
+  "item.tutorialmod.fluorite_shovel": "Fluorite Shovel",
+
+
+  "item.tutorialmod.fluorite_helmet": "Fluorite Helmet",
+  "item.tutorialmod.fluorite_chestplate": "Fluorite Chestplate",
+  "item.tutorialmod.fluorite_leggings": "Fluorite Leggings",
+  "item.tutorialmod.fluorite_boots": "Fluorite Boots",
+
+  "item.tutorialmod.fluorite_record": "We Will Meet Again",
+  "item.tutorialmod.fluorite_record.desc": "We Will Meet Again"
 
 }

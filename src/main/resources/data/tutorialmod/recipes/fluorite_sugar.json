@@ -1,14 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:sugar",
-      "item": "tutorialmod:fluorite"
-
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar"
+    },
+    "X": [
+      {
+        "item": "tutorialmod:fluorite"
+      }
+    ]
+  },
   "result": {
     "item": "tutorialmod:fluorite_sugar",
-    "count": 1
+    "count": 2
   }
 }

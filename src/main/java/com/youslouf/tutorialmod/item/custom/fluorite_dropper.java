@@ -1,5 +1,6 @@
 package com.youslouf.tutorialmod.item.custom;
 
+import com.youslouf.tutorialmod.util.ModTags;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.context.UseOnContext;
@@ -29,6 +30,7 @@ public class fluorite_dropper extends Item {
                 Block blockBelow = pContext.getLevel().getBlockState(positionClicked.below(i)).getBlock();
 
                 if(isValuableBlock(blockBelow)) {
+                    assert player != null;
                     outputValuableCoordinates(positionClicked.below(i), player, blockBelow);
                     foundBlock = true;
                     break;
@@ -54,8 +56,7 @@ public class fluorite_dropper extends Item {
     }
 
     private boolean isValuableBlock(Block block) {
-        return block == Blocks.COAL_ORE || block == Blocks.COPPER_ORE
-                || block == Blocks.DIAMOND_ORE || block == Blocks.IRON_ORE;
+        return block == Blocks.COAL_ORE || block == Blocks.COPPER_ORE || block == Blocks.DIAMOND_ORE || block == Blocks.IRON_ORE || block == Blocks.ANCIENT_DEBRIS;
     }
 
 }
